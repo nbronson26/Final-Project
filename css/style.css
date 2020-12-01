@@ -45,6 +45,7 @@
 
 h1,h2,h3{
     text-align: center;
+
 }
 
 .hero-image {
@@ -149,3 +150,41 @@ form button[type="submit"]:hover {
 .text-align-center{
     text-align: center;
 }
+
+.row2::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+.col2 {
+    float: left;
+
+}
+
+.col2-1-2 {
+    width: 50%;
+}
+
+.icons {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.icons i {
+    width: 40px;
+    font-size: 35px;
+}
+
+.icons li {
+    margin-bottom: 25px;
+}
+
+
+.icons-wrapper {
+    display: inline-block;
+
+
+}
+

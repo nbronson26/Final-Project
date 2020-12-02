@@ -179,12 +179,13 @@ form button[type="submit"]:hover {
 }
 
 .col3 {
+    box-sizing: border-box;
     float: left;
 }
 
 
 .col3-1_3 {
-    width: 30.33%;
+    width: 33.33%;
 }
 
 .row3 div{
@@ -194,21 +195,21 @@ form button[type="submit"]:hover {
 
 .row3 div:nth-of-type(1){
     background-color: darkgray;
-    padding: 10px;
+    padding: 20px;
     border: lightgray solid 5px;
     text-align: center;
 }
 
 .row3 div:nth-of-type(2){
     background-color: darkgray;
-    padding: 10px;
+    padding: 20px;
     border: lightgray solid 5px;
     text-align: center;
 }
 
 .row3 div:nth-of-type(3){
     background-color: darkgray;
-    padding: 10px;
+    padding: 20px;
     border: lightgray solid 5px;
     text-align: center;
 }

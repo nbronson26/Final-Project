@@ -15,6 +15,7 @@
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 999;
     /* visibility: hidden;
    */
   }
@@ -84,7 +85,7 @@ h1,h2,h3{
 }
 
 .aboutpage {
-    background-image: url(/Final-Project/img/about.jpg);
+    background-image: url(../img/about.jpg);
     background-repeat: none;
     background-size: cover;
     
@@ -100,8 +101,8 @@ h1,h2,h3{
 }
 
 .page {
-    background-image: url("/Final-Project/img/la.jpg");
-    background-repeat: none;
+    background-image: url("../img/la.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
 
     }
@@ -119,6 +120,8 @@ h1,h2,h3{
 }
 
 .row:after{
+    display: blokc;
+    content: "";
     clear: both;
 }
 
@@ -196,21 +199,21 @@ form button[type="submit"]:hover {
 .row3 div:nth-of-type(1){
     background-color: darkgray;
     padding: 20px;
-    border: lightgray solid 5px;
+    border: lightgray solid 10px;
     text-align: center;
 }
 
 .row3 div:nth-of-type(2){
     background-color: darkgray;
     padding: 20px;
-    border: lightgray solid 5px;
+    border: lightgray solid 10px;
     text-align: center;
 }
 
 .row3 div:nth-of-type(3){
     background-color: darkgray;
     padding: 20px;
-    border: lightgray solid 5px;
+    border: lightgray solid 10px;
     text-align: center;
 }
 
@@ -235,17 +238,20 @@ footer {
 }
 
 .icons {
+
     list-style-type: none;
     font-size: 24px;
     color: white;
 }
 
 .icons i {
+
     width: 40px;
     font-size: 35px;
 }
 
 .icons li {
+    display: inline-block;
     margin-bottom: 25px;
 }
 

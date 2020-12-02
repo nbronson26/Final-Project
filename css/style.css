@@ -48,6 +48,11 @@ h1,h2,h3{
 
 }
 
+.h3 {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 .hero-image {
     margin-top: 100px;
     background-image: url("/Final-Project/img/hero.jpg");
@@ -76,6 +81,22 @@ h1,h2,h3{
 
 .main {
     margin-top: 100px;
+}
+
+.aboutpage {
+    background-image: url(/Final-Project/img/about.jpg);
+    background-repeat: none;
+    background-size: cover;
+    
+}
+
+.about {
+    color: white;
+}
+
+.video {
+    margin: 300px;
+    text-align: center;
 }
 
 .page {
@@ -168,7 +189,7 @@ form button[type="submit"]:hover {
 
 .row3 div{
     display: inline-block;
-    height: 200px;
+    height: 250px;
 }
 
 .row3 div:nth-of-type(1){
@@ -192,9 +213,6 @@ form button[type="submit"]:hover {
     text-align: center;
 }
 
-.p1 {
-    text-size-adjust: 10%;
-}
 
 .row2::after {
     display: block;
